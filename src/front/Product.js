@@ -14,8 +14,8 @@ const Product = (props) => {
                       <img src={item.image} alt={item.name} height="300" width="300" />
                   </div>
                   <div className="item-name">{item.name}</div>
-                  <div className="item-price">{item.price}</div>
-                  <div className="item-button"><button>Add to Cart</button></div>
+                  <div className="item-price">Price: ${item.price}</div>
+                  <div><button className="item-button">Add to Cart</button></div>
               </div>
         ))}
 
