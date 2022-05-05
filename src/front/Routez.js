@@ -7,7 +7,7 @@ const Routez = (props) => {
   const Items = props.product;
   return (
     <div> 
-       
+       <Product pro={Items}/>
     </div>
   )
 }

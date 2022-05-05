@@ -15,7 +15,7 @@ const productItem=data.productItems;
   return (
     <Router>
         <Header/>
-        <Product pro={productItem}/>
+        <Routez product={productItem}/>
     </Router>
   );
 }
