@@ -1,17 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router, Routes} from 'react-router-dom';
 import Home from './front/home';
+import Header from './front/header'
 import data from './back/data/data';
+import Routez from './front/Routez'
+import Product from './front/Product'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 function App() { 
-  const {produtItem}=data;
+
+const productItem=data.productItems;
+
+
   return (
-    <div>
     <Router>
-       <Home/> 
+        <Header/>
+        <Product pro={productItem}/>
     </Router>
-    </div>
   );
 }
 

@@ -1,0 +1,14 @@
+.shop{
+  width : 100%; 
+  background-color:blueviolet; 
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  text-align: center; 
+}
+
+.card{ 
+    background-color:red; 
+    margin: 10px;
+    padding-top: 20px;
+} 
+
