@@ -2,16 +2,18 @@
   width : 100%; 
   background-color:white; 
   display: grid; 
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   text-align: center; 
 }
 
 .card{ 
+    width: 300px; 
     background-color:gray; 
     margin: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     border-radius: 10px;
+
 } 
 
 .item-button{ 
@@ -20,3 +22,6 @@
     background-color:whitesmoke; 
 }
 
+.item-image{ 
+
+}

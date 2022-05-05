@@ -7,14 +7,14 @@ const Header = () => {
       <header className="header">
         <div className="logo">
             <h1>
-                <Link to="/" exact>Headset Shop</Link>
+                <Link to="/" exact className="links">Headset Shop</Link>
             </h1>
         </div>
         <div className="header-links">
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/signup">Signup</Link></li>
-                <li><Link to="/cart"><i class="fas fa-shopping-cart"/></Link></li>
+                <li><Link to="/" className="links">Home</Link></li>
+                <li><Link to="/signup" className="links">Signup</Link></li>
+                <li><Link to="/cart" className="links"><i class="fas fa-shopping-cart"/></Link></li>
             </ul>
         </div>
       </header>
